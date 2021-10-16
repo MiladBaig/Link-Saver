@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    background-color: rgb(119, 111, 111);
+    background-image: url('./background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+}
+
+
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid olive;
+    background-color: rgb(164, 201, 198);
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+.btn{
+    background-color: rgb(104, 211, 211);
+    border: none;
+    padding: 0.55rem 1.8rem;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: rgb(103, 115, 219);
+}
+
+#delete-btn{
+    color: rgb(104, 211, 211);
+    background-color: #fff;
+    border: 1px solid rgb(104, 211, 211);
+}
+
+#delete-btn:hover{
+    background-color: rgb(104, 211, 211);
+    color: #fff;
+}
+
+
+ul{
+    list-style: none;
+    color: bisque;
+    padding-left: 0;
+    margin: 10 20px;
+}
+
+ul li{
+    margin-top: 10px;
+    font-size: 1.225rem;
+}
+
+
+a{
+    color: bisque;
+}
+
+
+a:hover{
+    color: rgb(130, 136, 189);
+}
+
+
+
